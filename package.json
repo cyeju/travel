@@ -2,11 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://깃허브아이디.github.io/travel/",
+  "homepage": "https://cyeju.github.io/travel/",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "next build && next export",
+    "build": "next build",
     "predeploy": "npm run build",
     "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles",
     "lint": "next lint"
